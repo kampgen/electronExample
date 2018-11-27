@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Olá Mundo!</title>
-  </head>
-  <body>
-    <h1>Olá turma!</h1>
-    Nos estamos usando node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    e Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        p {
+            font-size: 150%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá amigos!</h1>
+    <p>
+        O Electron usa <strong>Node.js</strong><br>
+        o que para este projeto está na versão
+        <script>document.write(process.versions.node)</script>
+    </p>
+    <p>Ele usa o <strong>Chromium/Chrome</strong> também:
+        <script>document.write(process.versions.chrome)</script>
+    </p>
+    <p>e claro, <strong>Electron</strong>
+        <script>document.write(process.versions.electron)</script>
+    </p>
+</body>
+
 </html>
