@@ -1,0 +1,19 @@
+{
+  "name": "electron-project",
+  "version": "1.0.0",
+  "description": "Electron initial app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "osx": "electron-packager . myApp --platform=darwin --arch=x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^3.0.10"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.2.0"
+  }
+}
